@@ -17,10 +17,14 @@ a {
 #header-img {
     background: #fff;
     padding: 8px;
-    max-width: 100%;
-    max-width: -moz-available;
-    max-width: -webkit-fill-available;
-    max-width: stretch;
+}
+
+#nav {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
 }
 
 #nav a {
@@ -37,4 +41,35 @@ a {
 
 #nav a:hover {
     background: #00436f;
+}
+
+@media screen and (max-width: 550px) {
+    #header-img {
+        max-width: 100%;
+        max-width: -moz-available;
+        max-width: -webkit-fill-available;
+        max-width: stretch;
+    }
+
+    #nav {
+        flex-direction: column;
+    }
+}
+
+#page-body {
+    white-space: pre-line;
+    max-width: 1200px;
+    margin-left: auto; margin-right: auto;
+}
+
+#page-body h1 {
+    margin-bottom: 0;
+    border-bottom: 3px solid #0072bc;
+    padding-bottom: 8px;
+}
+
+#footer {
+    margin-left: auto; margin-right: auto;
+    text-align: center;
+    margin-top: 200px;
 }
