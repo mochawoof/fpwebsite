@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>{{ page.title }} | Forward Point</title>
+        <link rel="stylesheet" href="{{ "style.css" | relative_url }}"/>
+        <link rel="icon" href="{{ "img/forward point icon white x128.png" | relative_url }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <div id="container">
+            <header id="header">
+                <img id="header-img" src="{{ "img/forward point white x500.png" | relative_url }}"/>
+                <ul id="nav">
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/calendar">CALENDAR</a></li>
+                </ul>
+            </header>
+            <article id="page-body">
+                {{ content }}
+            <footer id="footer">
+                <p><b>This website and the information on it is incomplete. It may not reflect the final product.</b></p>
+            </footer>
+        </div>
+    </body>
+</html>
