@@ -1,0 +1,40 @@
+body {
+    background: #fff;
+    margin: 8px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    color: #00f;
+    text-decoration: underline;
+}
+
+#header {
+    background: #0072bc;
+    padding: 8px;
+}
+
+#header-img {
+    background: #fff;
+    padding: 8px;
+    max-width: 100%;
+    max-width: -moz-available;
+    max-width: -webkit-fill-available;
+    max-width: stretch;
+}
+
+#nav a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 150px;
+    padding: 2px;
+    padding-left: 4px;
+    border-left: solid 3px #fff;
+    cursor: pointer;
+    margin-top: 4px;
+}
+
+#nav a:hover {
+    background: #00436f;
+}
