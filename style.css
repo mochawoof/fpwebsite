@@ -9,6 +9,11 @@ a {
     text-decoration: underline;
 }
 
+#container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 #header {
     background: #0072bc;
     padding: 8px;
@@ -55,12 +60,15 @@ a {
     #nav {
         flex-direction: column;
     }
-}
 
-#page-body {
-    white-space: pre-line;
-    max-width: 1200px;
-    margin-left: auto; margin-right: auto;
+    #nav li a {
+        width: 100%;
+        max-width: 100%;
+        max-width: -moz-available;
+        max-width: -webkit-fill-available;
+        max-width: stretch;
+        object-fit: contain;
+    }
 }
 
 #page-body h1 {
