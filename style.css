@@ -17,6 +17,8 @@ a {
 #header-img {
     background: #fff;
     padding: 8px;
+    height: auto;
+    aspect-ratio: auto;
 }
 
 #nav {
@@ -49,7 +51,6 @@ a {
         max-width: -moz-available;
         max-width: -webkit-fill-available;
         max-width: stretch;
-        height: auto;
     }
 
     #nav {
