@@ -48,7 +48,8 @@ a {
         max-width: 100%;
         max-width: -moz-available;
         max-width: -webkit-fill-available;
-        max-width: fit-content;
+        max-width: stretch;
+        height: auto;
     }
 
     #nav {
